@@ -1,5 +1,5 @@
 {
-  "name": "proophsoftware/prooph-bundle",
+  "name": "almasry/prooph-bundle",
   "description": "Symfony bundle for prooph components to get started out of the box with message bus, CQRS, event sourcing and snapshots",
   "type": "symfony-bundle",
   "license": "BSD-3-Clause",
@@ -27,7 +27,7 @@
     "cli"
   ],
   "require": {
-    "php": "^5.5 || ^7.0",
+    "php": ">=5.4",
     "prooph/event-sourcing": "^4.0",
     "prooph/event-store": "^6.0",
     "prooph/event-store-bus-bridge": "^2.0",
